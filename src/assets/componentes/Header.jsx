@@ -136,9 +136,9 @@ function PlacementExample() {
         <>
             <div className='redes'>
                 <SizeExample></SizeExample>
-                <Button 
-                className='boton'
-                onClick={onOpen}>
+                <Button
+                    className='boton'
+                    onClick={onOpen}>
                     Redes
                 </Button>
                 <Drawer placement={placement} onClose={onClose} isOpen={isOpen}>
@@ -215,10 +215,11 @@ function PlacementExample() {
 export default function Cabecera() {
     return (
         <>
+        
             <div className='contenedorNombre' id="head">
                 <Card className='cartaNombre'>
                     <CardHeader className='CardHeader' >
-                        <Heading size='md'>LMain | Desarrolladora de Software</Heading>
+                        <Heading size='md'>LMain | Software Developer</Heading>
                     </CardHeader>
 
                     <CardBody className='CardBody'>
@@ -229,7 +230,7 @@ export default function Cabecera() {
                                 </Heading>
 
                             </Box>
-                            
+
                             <Box>
                                 <Image
 
