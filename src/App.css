@@ -1,7 +1,7 @@
-
-.proyectos.carousel-control-next.carousel-control-prev{
+.proyectos.carousel-control-next.carousel-control-prev {
   background-color: #143109;
 }
+
 .content {
   width: 100%;
   height: 600px;
@@ -9,7 +9,8 @@
   flex-direction: column;
   backdrop-filter: blur(10px);
 }
-.chakra-breadcrumb__list{
+
+.chakra-breadcrumb__list {
   margin: 0;
   padding: 0;
   font-weight: bold;
@@ -31,12 +32,14 @@
 
 .svgs {
   display: flex;
+
 }
 
 .boton:hover {
   box-shadow: 5px 5px 5px #738290;
 }
-.boton{
+
+.boton {
   width: 150px;
 }
 
@@ -92,13 +95,29 @@
   justify-content: center;
 
 }
+
 .proyectos {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80%;
   width: 100%;
-  
+
+}
+
+.nombreAbajo {
+  width: 33%;
+  align-items: end;
+  text-align:end;
+  justify-content: center;
+  margin-right: 2%;
+
+}
+
+.fot {
+  font-size: 1vw;
+  font-family: system-ui, sans-serif;
+
 }
 
 .proyecto {
@@ -113,25 +132,34 @@
   height: 30px;
   margin-left: 2%;
 }
-
-.css-0{
+.botones{
   align-items: center;
   text-align: center;
   justify-content: center;
   display: flex;
-  flex-direction: column;
+flex-direction: column;
   margin: 0;
 }
-.chakra-card.cartaNombre.css-jv498s{
+.css-0 {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+
+  margin: 0;
+}
+
+.chakra-card.cartaNombre.css-jv498s {
   margin-top: -10%;
- margin-left: 0;
+  margin-left: 0;
   border-radius: var(--card-radius);
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
 }
-nav{
+
+nav {
   margin: 0;
 }
 
@@ -149,10 +177,10 @@ nav{
   padding: 0;
   position: relative;
   display: flex;
- 
+
 }
 
-.CardBody {
+#CardBody {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -160,15 +188,13 @@ nav{
   margin: 0;
   font-family: system-ui, sans-serif;
   box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.5);
-  border-radius:25px;
+  border-radius: 25px;
   z-index: 5;
-  background: rgb(151, 44, 252);
-  background: linear-gradient(0deg,  #c2d8b9a1 4%, #E4F0D0 20%,  #FFFCF7 98%);
+  background: linear-gradient(0deg, #c2d8b9a1 4%, #E4F0D0 20%, #FFFCF7 98%);
 }
-.fondo {
 
-  background: linear-gradient(0deg, #c2d8b9a1 30%,  #E4F0D0 60%,#FFFCF7 74%);
-
+#fondo {
+  background: linear-gradient(0deg, rgba(141, 187, 148, 0.5) 17%, rgba(194, 216, 185, 0.5) 42%, rgba(228, 240, 208, 0.5) 64%, rgba(255, 252, 247, 0.5) 86%);
   align-items: center;
   justify-content: center;
 }
@@ -188,17 +214,41 @@ nav{
   height: 30%;
 }
 
+.logoAbajo {
+  width: 40px;
+  height: 40px;
+}
+
 .informacion {
   font-weight: bold;
 }
-.foote{
+
+.cambiador {
+  width: 33%;
+  margin-left: 3%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.contacto {
+  margin-top: 5%;
+  flex-direction: column;
+}
+
+.sociales {
+  width: 33%;
+  text-align: left;
+}
+
+.foote {
   display: flex;
   align-items: center;
   text-align: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 0%;
   margin: 0%;
-  background-color: #143109;
   height: 200px;
 }
 
@@ -320,18 +370,18 @@ nav{
   filter: blur(.5rem);
 }
 
-.text {
+#text {
   flex-grow: 1;
   padding: 15px;
   display: flex;
   flex-direction: column;
-  color: #143109;
+  color: #000000;
   font-weight: 900;
   height: 200px;
   font-size: 1.2em;
 }
 
-.subtitle {
+#subtitle {
   font-weight: bold;
   color: #A1B5D8;
 }
@@ -358,5 +408,4 @@ nav{
 .svg-icon {
   width: 25px;
   height: 25px;
-  stroke: rgb(38, 59, 126);
 }

@@ -5,16 +5,17 @@ import Cabecera from './assets/componentes/Header';
 import NavBar from './assets/componentes/navBar';
 import Content from './assets/componentes/Content';
 import Footer from './assets/componentes/Footer';
+
 function App() {
   return (
 
     <ChakraProvider>
 
-    <div className='fondo'>
+    <div id='fondo' className='fondo'>
     <NavBar></NavBar>
       <Cabecera />
       <Content />
-      <Footer />
+      <Footer/>
     </div>
 
     </ChakraProvider>

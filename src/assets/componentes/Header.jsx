@@ -220,7 +220,7 @@ export default function Cabecera() {
                 <Card className='cartaNombre'>
 
 
-                    <CardBody className='CardBody'>
+                    <CardBody id='CardBody'>
                     
                             <Heading size='md' > LMain | Software Developer</Heading>
                             <Stack divider={<StackDivider />} spacing='4'>
@@ -239,7 +239,7 @@ export default function Cabecera() {
                                         className='fotoMia'
                                     />
                                 </Box>
-                                <Box>
+                                <Box className='botones'>
                                     <Heading size='xs' textTransform='uppercase'>
                                         Contact
                                     </Heading>

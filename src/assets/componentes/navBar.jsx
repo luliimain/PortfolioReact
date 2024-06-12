@@ -7,10 +7,9 @@ export default function NavBar() {
   return (
     <nav className='barra'>
       <Breadcrumb className='Breadcrumb'>
-        <BreadcrumbItem isCurrentPage>
+        <BreadcrumbItem>
           <BreadcrumbLink href='#head'>home</BreadcrumbLink>
         </BreadcrumbItem>
-
         <BreadcrumbItem>
           <BreadcrumbLink href='#cont'>content</BreadcrumbLink>
         </BreadcrumbItem>
