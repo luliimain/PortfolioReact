@@ -112,7 +112,7 @@ function SizeExample() {
                         <Box>
                             <Image
                                 boxSize='200px'
-                                src="src/assets/componentes/archivos/fotos/memo2.png"
+                                src="/src/assets/componentes/archivos/fotos/memo2.png"
                                 alt='Dan Abramov'
                                 className='memo'
                             />
@@ -234,7 +234,7 @@ export default function Cabecera() {
                                 <Box>
                                     <Image
 
-                                        src="src/assets/componentes/archivos/fotos/R.jpeg"
+                                        src="/src/assets/componentes/archivos/fotos/R.jpeg"
                                         alt='Dan Abramov'
                                         className='fotoMia'
                                     />
