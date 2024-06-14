@@ -26,8 +26,6 @@
 
 .memo {
   margin-top: 15%;
-  margin-left: 25%;
-
 }
 
 .svgs {
@@ -37,10 +35,12 @@
 
 .boton:hover {
   box-shadow: 5px 5px 5px #738290;
+
 }
 
 .boton {
   width: 150px;
+  z-index: 1;
 }
 
 .video {
@@ -66,6 +66,52 @@
   z-index: -1;
 }
 
+.memo2 {
+  margin: 0;
+  filter: drop-shadow(25px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+.stack {
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.9));
+}
+
+.arriba {
+  margin-top: 10%;
+  flex-direction: column;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.parrafo {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: left;
+  display: flex;
+
+
+}
+
+.par {
+  margin-left: 2%;
+  margin-top: -10%;
+  width: 50%;
+  font-size: 1vw;
+  font-family: system-ui, sans-serif;
+  font-weight: bold;
+}
+
+.Nombre {
+  width: 100%;
+  height: 300px;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  display: flex;
+}
+
 .carousel-item {
   height: 500px;
   width: 500px;
@@ -73,14 +119,20 @@
   justify-content: center;
   text-align: center;
   display: flex;
+}
 
-
+#carta {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  background: linear-gradient(0deg, #c2d8b9a1 4%, #E4F0D0 10%, #FFFCF7 98%);
+  border-radius: 25px;
 }
 
 .fotoMia {
   margin: 0;
-  width: 300px;
-  height: 220px;
+  width: 350px;
+  height: 300px;
   border-radius: 10%;
   align-items: center;
   justify-content: center;
@@ -108,7 +160,7 @@
 .nombreAbajo {
   width: 33%;
   align-items: end;
-  text-align:end;
+  text-align: end;
   justify-content: center;
   margin-right: 2%;
 
@@ -118,6 +170,14 @@
   font-size: 1vw;
   font-family: system-ui, sans-serif;
 
+}
+
+.nom {
+  width: 50%;
+  font-size: 4vw;
+  font-family: system-ui, sans-serif;
+  text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
 }
 
 .proyecto {
@@ -132,14 +192,19 @@
   height: 30px;
   margin-left: 2%;
 }
-.botones{
+
+.botones {
   align-items: center;
   text-align: center;
   justify-content: center;
   display: flex;
-flex-direction: column;
+  z-index: 1;
+  flex-direction: column;
   margin: 0;
+  width: 50%;
+  position: relative;
 }
+
 .css-0 {
   align-items: center;
   text-align: center;
@@ -147,6 +212,10 @@ flex-direction: column;
   display: flex;
 
   margin: 0;
+}
+
+.cartaNombre {
+  display: flex;
 }
 
 .chakra-card.cartaNombre.css-jv498s {
@@ -184,13 +253,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   margin: 0;
   font-family: system-ui, sans-serif;
-  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.5);
-  border-radius: 25px;
+
   z-index: 5;
-  background: linear-gradient(0deg, #c2d8b9a1 4%, #E4F0D0 20%, #FFFCF7 98%);
+
 }
 
 #fondo {
@@ -204,7 +271,6 @@ nav {
   width: 100%;
   height: 700px;
   justify-content: center;
-  transition: opacity 0.5s ease;
   text-align: center;
   align-items: center;
 }
@@ -218,9 +284,24 @@ nav {
   width: 40px;
   height: 40px;
 }
-
+.info{
+  height: 100%;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  z-index: 1;
+  flex-direction: column;
+  margin: 0;
+  width: 50%;
+}
 .informacion {
   font-weight: bold;
+}
+.texto{
+  width: 75%;
+  height: auto;
 }
 
 .cambiador {
@@ -231,7 +312,12 @@ nav {
   text-align: center;
   display: flex;
 }
-
+.contact{
+  font-family: system-ui, sans-serif;
+  text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  font-size: 3vw;
+}
 .contacto {
   margin-top: 5%;
   flex-direction: column;
@@ -408,4 +494,86 @@ nav {
 .svg-icon {
   width: 25px;
   height: 25px;
+}
+
+
+
+
+
+
+
+
+/* switch settings 👇 */
+
+.ui-switch {
+  /* switch */
+  --switch-bg: rgb(135, 150, 165);
+  --switch-width: 800px;
+  --switch-height: 400px;
+  /* circle */
+  --circle-diameter: 350px;
+  --circle-bg:none;
+  --circle-inset: calc((var(--circle-diameter) - var(--switch-height)) / 2);
+}
+
+.ui-switch input {
+  display: none;
+}
+
+.slider {
+width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: var(--switch-width);
+  height: var(--switch-height);
+  background: none;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.checkk {
+  display: flex;
+}
+
+.slider .circle {
+  top: calc(var(--circle-inset) * -1);
+  left: 0;
+  height: var(--circle-diameter);
+  position: relative;
+  background: var(--circle-bg);
+  border-radius: 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: left 700ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, -webkit-transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  display: -webkit-box;
+  display: -ms-flexbox;
+
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  
+}
+
+.circle {
+  z-index: 2;
+}
+
+.ui-switch input:checked+.slider .circle {
+  left: calc(100% - var(--circle-diameter));
+
+}
+
+.ui-switch input:active+.slider .circle::before {
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
+  opacity: 1;
+  width: 0;
+  height: 0;
 }

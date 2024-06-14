@@ -16,6 +16,7 @@ import {
 import { PhoneIcon, EmailIcon } from '@chakra-ui/icons'
 
 import { Card, CardHeader, CardBody, CardFooter, Heading, StackDivider, Box, Text } from '@chakra-ui/react'
+import Arriba from './Arriba';
 function SizeExample() {
     const [size, setSize] = React.useState('')
     const { isOpen, onOpen, onClose } = useDisclosure()
@@ -24,7 +25,6 @@ function SizeExample() {
         setSize(newSize)
         onOpen()
     }
-
     const sizes = ['sm']
 
     return (
@@ -217,47 +217,82 @@ export default function Cabecera() {
         <>
 
             <div className='contenedorNombre' id="head">
-                <Card className='cartaNombre'>
+                <div className='cartaNombre'>
+                    <div id='CardBody'>
+                        <div id='carta'>
+                            <label className="ui-switch">
+                                <input type="checkbox" className='checkk' />
+
+                                <div className="slider">
+                                    <div className="circle"><img src="/src/assets/componentes/archivos/fotos/R.jpeg"
+                                        alt='Dan Abramov'
+                                        className='fotoMia' />
+                                    </div>
+                                    <div className='botones'>
+                                        <h1 className='contact'>Contact</h1>
+                                        <div>
+                                            <PlacementExample></PlacementExample>
+                                        </div>
+                                    </div>
+                                    <div className='info'>
+                                       
+                                        <div className='texto'>
+                                           <h6>Hello, I'm Lucia, I'm 22 years old and I'm a programmer. I specialize in both backend and frontend development. I currently reside in Paraná, Entre Ríos, Argentina. I am passionate about programming and am always looking to improve my skills in this area. I am always open to new opportunities and challenges in the world of software development. Don't hesitate to get in touch if you need help or want to chat about programming!</h6>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </label>
+
+                            {/*<button className='botonImagen'>
+                                <img src="/src/assets/componentes/archivos/fotos/R.jpeg"
+                                    alt='Dan Abramov'
+                                    className='fotoMia' />
+                            </button>
+                            */}
+
+                        </div>
+                        {/*
+                        <div className='botones'>
+                            <h1>Contact</h1>
+                            <div>
+                                <PlacementExample></PlacementExample>
+                            </div>
+                        </div>
+                        */}
+
+                    </div>
+                </div>
+                {/*<Card className='cartaNombre'>
 
 
                     <CardBody id='CardBody'>
-                    
-                            <Heading size='md' > LMain | Software Developer</Heading>
-                            <Stack divider={<StackDivider />} spacing='4'>
-                                <Box>
-                                    <Heading size='xs' textTransform='uppercase'>
-                                        Tecnica Universitaria en Programación
-                                    </Heading>
+                        <Stack divider={<StackDivider />} spacing='4'>
 
-                                </Box>
 
-                                <Box>
-                                    <Image
+                            <Box>
+                                <Image
 
-                                        src="/src/assets/componentes/archivos/fotos/R.jpeg"
-                                        alt='Dan Abramov'
-                                        className='fotoMia'
-                                    />
-                                </Box>
-                                <Box className='botones'>
-                                    <Heading size='xs' textTransform='uppercase'>
-                                        Contact
-                                    </Heading>
-                                    <Text pt='2' fontSize='sm'>
-                                        <PlacementExample></PlacementExample>
-                                    </Text>
-                                </Box>
-                            </Stack>
-                     
+                                    src="/src/assets/componentes/archivos/fotos/R.jpeg"
+                                    alt='Dan Abramov'
+                                    className='fotoMia'
+                                />
+                            </Box>
+                            <Box className='botones'>
+                                <Heading size='xs' textTransform='uppercase'>
+                                    Contact
+                                </Heading>
+                                <Text pt='2' fontSize='sm'>
+                                    <PlacementExample></PlacementExample>
+                                </Text>
+                            </Box>
+                        </Stack>
+
                     </CardBody>
-                </Card>
-
+                </Card>*/}
             </div>
-
-
-
-
-
         </>
     );
 }

@@ -4,7 +4,7 @@ import { PhoneIcon, EmailIcon } from '@chakra-ui/icons'
 
 function cambiarFondo(isChecked) {
     const fondo = document.getElementById('fondo');
-    const carta = document.getElementById('CardBody');
+    const carta = document.getElementById('carta');
     const subtitle = document.getElementById('subtitle');
     if (fondo) {
         if (isChecked) {
@@ -58,7 +58,7 @@ export default function Footer() {
                 </div>
 
                 <div className='cambiador'>
-                    <Stack direction='row'>
+                    <Stack className='stack' direction='row'>
                         <Switch size='lg' colorScheme='pink' id='cambio' isChecked={isChecked} onChange={handleChange} />
                     </Stack>
                 </div>
