@@ -1,5 +1,5 @@
 import memo from '/src/assets/componentes/archivos/fotos/memoo.png'
-import foto from '/src/assets/componentes/archivos/fotos/r.jpeg'
+import foto from '/src/assets/componentes/archivos/fotos/fotoMia.jpeg'
 
 import React from 'react';
 import {
