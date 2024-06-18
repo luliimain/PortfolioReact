@@ -1,4 +1,4 @@
-import memo from '/src/assets/componentes/archivos/fotos/memo2.png'
+import memo from '/src/assets/componentes/archivos/fotos/memoo.png'
 import foto from '/src/assets/componentes/archivos/fotos/r.jpeg'
 import React from 'react';
 import {
