@@ -1,5 +1,5 @@
 import memo from '/src/assets/componentes/archivos/fotos/memo2.png'
-import foto from '/src/assets/componentes/archivos/fotos/R.jpeg'
+import foto from '/src/assets/componentes/archivos/fotos/r.jpeg'
 import React from 'react';
 import {
     Drawer,
