@@ -1,5 +1,6 @@
 import memo from '/src/assets/componentes/archivos/fotos/memoo.png'
 import foto from '/src/assets/componentes/archivos/fotos/r.jpeg'
+
 import React from 'react';
 import {
     Drawer,
@@ -111,18 +112,18 @@ function SizeExample() {
                                 </svg>
                             </Tooltip>
                         </Box>
-                        <Box>
-                            <Image
-                                boxSize='200px'
-                                src={memo}
-                                alt='Dan Abramov'
-                                className='memo'
-                            />
-                        </Box>
-                        <Box>
+                        <div className='memito'>
+                            <img src={memo} alt='Dan Abramov'
+                                className='memo' />
+                        </div>
+                        <div className='parrafo'>
                             <br />
-                            <p>I have completed my studies at the National Technological University of Paraná, Argentina, where I acquired the vast majority of my skills and knowledge. In addition, I have specialized in the technical management of public lighting during my professional internships. Currently, I work in this area, applying and expanding my acquired skills.</p>
-                        </Box>
+                            <p className='parr'>I have completed my studies at the National Technological University of Paraná, Argentina, where I acquired the vast majority of my skills and knowledge. In addition, I have specialized in the technical management of public lighting during my professional internships. Currently, I work in this area, applying and expanding my acquired skills.
+
+                            </p>
+                        </div>
+
+
 
                     </DrawerBody>
                 </DrawerContent>
@@ -237,9 +238,9 @@ export default function Cabecera() {
                                         </div>
                                     </div>
                                     <div className='info'>
-                                       
+
                                         <div className='texto'>
-                                           <h6>Hello, I'm Lucia, I'm 22 years old and I'm a programmer. I specialize in both backend and frontend development. I currently reside in Paraná, Entre Ríos, Argentina. I am passionate about programming and am always looking to improve my skills in this area. I am always open to new opportunities and challenges in the world of software development. Don't hesitate to get in touch if you need help or want to chat about programming!</h6>
+                                            <h6>Hello, I'm Lucia, I'm 22 years old and I'm a programmer. I specialize in both backend and frontend development. I currently reside in Paraná, Entre Ríos, Argentina. I am passionate about programming and am always looking to improve my skills in this area. I am always open to new opportunities and challenges in the world of software development. Don't hesitate to get in touch if you need help or want to chat about programming!</h6>
                                         </div>
                                     </div>
 

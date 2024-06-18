@@ -1,6 +1,7 @@
 import {
     Box, Image
 } from '@chakra-ui/react';
+import memoo from '/src/assets/componentes/archivos/fotos/memo.png'
 export default function Arriba() {
     return (
         <>
@@ -13,18 +14,17 @@ export default function Arriba() {
 
 
 
-                    <Box>
-                        <Image
-                            boxSize='250px'
-                            src="/src/assets/componentes/archivos/fotos/memo.png"
-                            alt='Dan Abramov'
-                            className='memo2'
-                        />
-                    </Box>
+
+                    <img src={memoo} alt="" className='memo2' />
+
+
+
+
+
 
                 </div>
                 <div className='parrafo'><p className='par'>TECNICA UNIVERSITARIA EN PROGRAMACIÓN</p></div>
-                
+
             </div>
         </>
     )
