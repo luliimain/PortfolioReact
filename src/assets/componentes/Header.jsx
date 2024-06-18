@@ -11,15 +11,12 @@ import {
     DrawerContent,
     DrawerCloseButton,
     Button,
-    Stack,
-    Radio,
-    RadioGroup, Tooltip,
+    Tooltip,
     useDisclosure, Image
 } from '@chakra-ui/react';
 import { PhoneIcon, EmailIcon } from '@chakra-ui/icons'
 
-import { Card, CardHeader, CardBody, CardFooter, Heading, StackDivider, Box, Text } from '@chakra-ui/react'
-import Arriba from './Arriba';
+import { Box } from '@chakra-ui/react'
 function SizeExample() {
     const [size, setSize] = React.useState('')
     const { isOpen, onOpen, onClose } = useDisclosure()
@@ -240,7 +237,7 @@ export default function Cabecera() {
                                     <div className='info'>
 
                                         <div className='texto'>
-                                            <h6>Hello, I'm Lucia, I'm 22 years old and I'm a programmer. I specialize in both backend and frontend development. I currently reside in Paraná, Entre Ríos, Argentina. I am passionate about programming and am always looking to improve my skills in this area. I am always open to new opportunities and challenges in the world of software development. Don't hesitate to get in touch if you need help or want to chat about programming!</h6>
+                                            <p className='parr'>Hello, I'm Lucia, I'm 22 years old and I'm a programmer. I specialize in both backend and frontend development. I currently reside in Paraná, Entre Ríos, Argentina. I am passionate about programming and am always looking to improve my skills in this area. I am always open to new opportunities and challenges in the world of software development. Don't hesitate to get in touch if you need help or want to chat about programming!</p>
                                         </div>
                                     </div>
 

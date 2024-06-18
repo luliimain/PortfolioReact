@@ -18,6 +18,7 @@
   z-index: 1000;
   position: fixed;
 }
+
 .fotoCarrusel {
   width: 60%;
   height: 60%;
@@ -40,12 +41,13 @@
 
 .boton:hover {
   box-shadow: 5px 5px 5px #738290;
-
+  
 }
 
 .boton {
-  width: 150px;
+  width: 8vw;
   z-index: 1;
+  font-size: 20vw;  
 }
 
 .video {
@@ -139,8 +141,8 @@
 
 .fotoMia {
   margin: 0;
-  width: 350px;
-  height: 300px;
+  width: 25vw;
+  height: 25vw;
   border-radius: 10%;
   align-items: center;
   justify-content: center;
@@ -153,7 +155,6 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-
 }
 
 .proyectos {
@@ -308,6 +309,7 @@ nav {
   font-weight: bold;
 }
 .texto{
+  font-size: 3vw;
   width: 75%;
   height: auto;
 }
@@ -500,7 +502,7 @@ width: 100%;
 }
 
 .svg-icon {
-  width: 15%;
+  width: 20%;
 }
 
 
@@ -515,10 +517,10 @@ width: 100%;
 .ui-switch {
   /* switch */
   --switch-bg: rgb(135, 150, 165);
-  --switch-width: 800px;
-  --switch-height: 400px;
+  --switch-width: 50vw;
+  --switch-height: 30vw;
   /* circle */
-  --circle-diameter: 350px;
+  --circle-diameter: 25vw;
   --circle-bg:none;
   --circle-inset: calc((var(--circle-diameter) - var(--switch-height)) / 2);
 }
