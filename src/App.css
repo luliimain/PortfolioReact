@@ -19,10 +19,6 @@
   position: fixed;
 }
 
-.fotoCarrusel {
-  width: 60%;
-  height: 60%;
-}
 .memito{
   align-items: center;
   text-align: center;
@@ -442,8 +438,8 @@ nav {
 }
 
 .card {
-  width: 40%;
-  height: 30%;
+  width:500px;
+  height: 300px;
   border-radius: 15px;
   background-color: #F3EEE5;
   display: flex;
@@ -473,7 +469,7 @@ nav {
   flex-direction: column;
   color: #000000;
   font-weight: 900;
-  height: 30%;
+  height: 200px;
   font-size: 2vw;
 }
 
@@ -502,7 +498,7 @@ width: 100%;
 }
 
 .svg-icon {
-  width: 20%;
+  width: 25px;
 }
 
 
