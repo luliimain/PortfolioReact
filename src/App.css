@@ -95,7 +95,7 @@
   justify-content: left;
   display: flex;
 }
-.parr{
+.parr, .parrr{
   width: 100%;
   font-size: 1vw;
   font-family: system-ui, sans-serif;
@@ -620,7 +620,7 @@ width: 100%;
   width: 200px;
   height: 180px;
 }
-.parr{
+.parrr{
   font-size: 2vw;
 }
 .contact{
@@ -635,5 +635,6 @@ width: 100%;
 .parr{
   font-size: 3vw;
 }
+
  
 }
