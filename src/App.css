@@ -470,13 +470,13 @@ nav {
   color: #000000;
   font-weight: 900;
   height: 200px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #subtitle {
   font-weight: bold;
   color: #A1B5D8;
-  font-size: 40px
+  font-size: 30px
 }
 
 .icons {
@@ -581,4 +581,28 @@ width: 100%;
   opacity: 1;
   width: 0;
   height: 0;
+}
+
+
+@media (max-width: 300px) {
+ .proyecto{
+  font-size: 15vw;
+ }
+ .nom{
+  font-size: 20vw;
+  width: 100%;
+ }
+ .par{
+  font-size: 5vw;
+  text-align:left;
+  width: 100%;
+ }
+ .Nombre{
+  display: block;
+ }
+ .memo2
+ {
+  width: 100px;
+ }
+ 
 }
