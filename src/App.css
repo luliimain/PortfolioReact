@@ -602,7 +602,38 @@ width: 100%;
  }
  .memo2
  {
-  width: 100px;
+  width: 200px;
  }
+ .card{
+  width: 400px;
+ }
+.slider{
+  width: 400px;
+  height: 300px;
+}
+.ui-switch {
+  --switch-width: 500px;
+  --switch-height: 300px;
+  --circle-diameter:200px;
+}
+.fotoMia{
+  width: 200px;
+  height: 180px;
+}
+.parr{
+  font-size: 2vw;
+}
+.contact{
+  font-size: 5vw;
+}
+.boton{
+  width: 150px;
+}
+.memo{
+  width: 100px;
+}
+.parr{
+  font-size: 3vw;
+}
  
 }
