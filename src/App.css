@@ -470,13 +470,13 @@ nav {
   color: #000000;
   font-weight: 900;
   height: 200px;
-  font-size: 2vw;
+  font-size: 25px;
 }
 
 #subtitle {
   font-weight: bold;
   color: #A1B5D8;
-  font-size: 3.2vw;
+  font-size: 40px
 }
 
 .icons {
