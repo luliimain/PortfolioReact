@@ -1,3 +1,5 @@
+import memo from '/src/assets/componentes/archivos/fotos/memo2.png'
+import foto from '/src/assets/componentes/archivos/fotos/R.jpeg'
 import React from 'react';
 import {
     Drawer,
@@ -112,7 +114,7 @@ function SizeExample() {
                         <Box>
                             <Image
                                 boxSize='200px'
-                                src="/src/assets/componentes/archivos/fotos/memo2.png"
+                                src={memo}
                                 alt='Dan Abramov'
                                 className='memo'
                             />
@@ -224,7 +226,7 @@ export default function Cabecera() {
                                 <input type="checkbox" className='checkk' />
 
                                 <div className="slider">
-                                    <div className="circle"><img src="/src/assets/componentes/archivos/fotos/R.jpeg"
+                                    <div className="circle"><img src={foto}
                                         alt='Dan Abramov'
                                         className='fotoMia' />
                                     </div>
