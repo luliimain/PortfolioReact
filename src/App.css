@@ -664,5 +664,7 @@ width: 100%;
   padding: 0;
   margin: 0%;
 }
-
+.stack{
+  filter: drop-shadow(10px 5px 10px rgba(0, 0, 0, 0.5));
+}
 }
