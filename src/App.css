@@ -584,7 +584,7 @@ width: 100%;
 }
 
 
-@media (max-width: 300px) {
+@media (max-width: 414px) and (max-height: 736px) {
  .proyecto{
   font-size: 15vw;
  }
