@@ -29,14 +29,14 @@ function UncontrolledExample() {
                     <div className='proyectos'>
                         <ExampleCarouselImage titulo='ABM Simple' texto='React+Python+HTML+
                     CSS+PostgreSQL
-                    +SqlAlchemy' link='https://github.com/luliimain/proyectooo' />
+                    +SqlAlchemy' link='https://github.com/luliimain/proyecto-lab' />
                     </div>
 
                 </Carousel.Item>
                 <Carousel.Item>
                 <div className='proyectos'>
                     <ExampleCarouselImage titulo='Software S.I.G.A.P' texto='Java+Html+CSS+
-                JavaScript+PostgreSQL' link='https://github.com/luliimain/proyectooo' />
+                JavaScript+PostgreSQL' link='/src/assets/componentes/archivos/Sigap/sigap.html' />
                 </div>
 
                 </Carousel.Item>

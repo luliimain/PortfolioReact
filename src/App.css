@@ -102,7 +102,7 @@
   font-weight: bold;
 }
 .par {
-  margin-left: 2%;
+  margin-left: 3%;
   width: 50%;
   font-size: 1vw;
   font-family: system-ui, sans-serif;
@@ -137,7 +137,7 @@
 
 .fotoMia {
   margin: 0;
-  width: 25vw;
+  width: 30vw;
   height: 25vw;
   border-radius: 10%;
   align-items: center;
@@ -513,7 +513,7 @@ width: 100%;
 .ui-switch {
   /* switch */
   --switch-bg: rgb(135, 150, 165);
-  --switch-width: 50vw;
+  --switch-width: 55vw;
   --switch-height: 30vw;
   /* circle */
   --circle-diameter: 25vw;
