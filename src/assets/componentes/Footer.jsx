@@ -36,8 +36,6 @@ export default function Footer() {
 
                 <div className="sociales">
 
-
-
                     <div className='contacto'>
                         <div >
                             <Tooltip>
