@@ -31,11 +31,11 @@ function SizeExample() {
     return (
         <>
             {sizes.map((size) => (
-                <Button className='boton'
+                <button className='boton'
                     onClick={() => handleClick(size)}
                     key={size}
                     m={4}
-                >{`Skills`}</Button>
+                >{`Skills`}</button>
             ))}
 
             <Drawer onClose={onClose} isOpen={isOpen} size={size}>
@@ -142,11 +142,11 @@ function PlacementExample() {
         <>
 
             <SizeExample></SizeExample>
-            <Button
+            <button
                 className='boton'
                 onClick={onOpen}>
                 Contact
-            </Button>
+            </button>
             <Drawer placement={placement} onClose={onClose} isOpen={isOpen}>
                 <DrawerOverlay />
                 <DrawerContent>

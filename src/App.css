@@ -19,10 +19,11 @@
   position: fixed;
 }
 
-.contenedorMemo{
+.contenedorMemo {
   height: 200px;
   display: flex;
 }
+
 .memo {
   width: 16vw;
   margin-top: 10%;
@@ -37,32 +38,41 @@
   box-shadow: 5px 5px 5px #7ab7f080;
 
 }
-#skill{
+
+#skill {
   color: #000000;
 }
-.Descargarcv{
+
+.Descargarcv {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .boton {
   width: 8vw;
-  z-index: 1;
-  font-size: 20vw;
+  font-size: 1vw;
   transition: 0.5s ease;
-  
+  background-color: #738290;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 5%;
+
 }
-.fotoyBotones{
+
+.fotoyBotones {
   justify-content: center;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.botonesss{
+
+.botonesss {
   display: flex;
   justify-content: center;
-  align-items:baseline;
+  align-items: baseline;
 }
+
 .video {
   position: absolute;
   top: 50%;
@@ -94,15 +104,18 @@
   animation: girar 30s infinite linear;
   transition: 1s ease;
 }
-.memo2:hover{
+
+.memo2:hover {
   filter: drop-shadow(5px 5px 10px rgba(220, 46, 255, 0.5));
 }
+
 @keyframes girar {
   from {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
+
   to {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -133,12 +146,12 @@
   font-size: 1vw;
   font-family: system-ui, sans-serif;
   font-weight: bold;
-  color:#dbeaff ;
+  color: #dbeaff;
   text-align: center;
 }
 
 .par {
-  margin-left:1.5%;
+  margin-left: 1.5%;
   width: 50%;
   font-size: 1vw;
   font-family: system-ui, sans-serif;
@@ -201,11 +214,12 @@
 }
 
 .nombreAbajo {
-  width: 33%;
+  width: 100%;
   align-items: end;
   text-align: end;
   justify-content: center;
   margin-right: 2%;
+  color: #7b807c;
 
 }
 
@@ -239,10 +253,11 @@
 }
 
 .botones {
-  align-items:baseline;
+  align-items: baseline;
   display: flex;
   margin: 0;
-  width: 70%;
+  width: 69%;
+  margin-bottom: 3%;
 }
 
 .css-0 {
@@ -334,13 +349,15 @@ nav {
   margin: 0;
   width: 100%;
 }
-.logos{
-  display:flex;
+
+.logos {
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 70%
 }
-.LogosInfo{
+
+.LogosInfo {
   width: 90px;
   height: 90px;
   margin-left: 2%;
@@ -348,21 +365,26 @@ nav {
   transition: 0.5s ease;
 }
 
-#js:hover{
-  filter:drop-shadow(5px 5px 5px  rgba(217, 255, 1, 0.568));
+#js:hover {
+  filter: drop-shadow(5px 5px 5px rgba(217, 255, 1, 0.568));
 }
-#jv:hover{
-  filter:drop-shadow(5px 5px 5px  rgba(255, 145, 1, 0.932));
+
+#jv:hover {
+  filter: drop-shadow(5px 5px 5px rgba(255, 145, 1, 0.932));
 }
-#c:hover{
-  filter:drop-shadow(5px 5px 5px  rgba(175, 1, 255, 0.74));
+
+#c:hover {
+  filter: drop-shadow(5px 5px 5px rgba(175, 1, 255, 0.74));
 }
-#rea:hover{
-  filter:drop-shadow(5px 5px 5px  rgba(1, 217, 255, 0.74));
+
+#rea:hover {
+  filter: drop-shadow(5px 5px 5px rgba(1, 217, 255, 0.74));
 }
-#jq:hover{
-  filter:drop-shadow(5px 5px 5px  rgba(1, 103, 255, 0.74));
+
+#jq:hover {
+  filter: drop-shadow(5px 5px 5px rgba(1, 103, 255, 0.74));
 }
+
 .informacion {
   font-weight: bold;
 }
