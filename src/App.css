@@ -686,7 +686,19 @@ nav {
   .proyecto {
     font-size: 15vw;
   }
-
+  .contenedorNombre{
+    height:200px ;
+  }
+  .logos{
+    width: 90%;
+  }
+  .botones{
+    width: 90%;
+  }
+  .boton{
+    width: 50px;
+    height: 20px;
+  }
   .nom {
     font-size: 20vw;
     width: 100%;
@@ -707,7 +719,7 @@ nav {
   }
 
   .card {
-    width: 400px;
+    width: 300px;
   }
 
   .slider {
@@ -734,9 +746,6 @@ nav {
     font-size: 5vw;
   }
 
-  .boton {
-    width: 150px;
-  }
 
   .memo {
     width: 100px;
