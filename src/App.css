@@ -158,6 +158,13 @@
   font-weight: bold;
   color: #E4F0D0;
 }
+.contenido{
+  background-color: #e7d9e7cb;
+}
+.cabecera{
+  background-color: #886a8acb;
+  color: white;
+}
 
 .Nombre {
   width: 100%;
@@ -588,6 +595,7 @@ nav {
 
 .svg-icon {
   width: 25px;
+
 }
 
 

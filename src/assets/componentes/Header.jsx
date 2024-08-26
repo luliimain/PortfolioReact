@@ -40,10 +40,10 @@ function SizeExample() {
 
             <Drawer onClose={onClose} isOpen={isOpen} size={size}>
                 <DrawerOverlay />
-                <DrawerContent >
+                <DrawerContent  >
                     <DrawerCloseButton />
-                    <DrawerHeader>{`Skills`}</DrawerHeader>
-                    <DrawerBody className='DrawerBody'>
+                    <DrawerHeader className='cabecera'>{`Skills`}</DrawerHeader>
+                    <DrawerBody className='contenido' >
                         <Box className='svgs'>
                             <Tooltip label='JavaScript' fontSize='md'>
                                 <svg xmlns="http://www.w3.org/2000/svg" className='logo' viewBox="0 0 16 16" fill="none">
@@ -149,10 +149,10 @@ function PlacementExample() {
             </button>
             <Drawer placement={placement} onClose={onClose} isOpen={isOpen}>
                 <DrawerOverlay />
-                <DrawerContent>
-                    <DrawerHeader borderBottomWidth='1px'>Mis redes:
+                <DrawerContent >
+                    <DrawerHeader className='cabecera' borderBottomWidth='1px'>Mis redes:
                     </DrawerHeader>
-                    <DrawerBody>
+                    <DrawerBody className='contenido'>
                         <Tooltip label='Phone number' fontSize='md'>
                             <PhoneIcon />
                         </Tooltip> + 54 3434475391<br />
