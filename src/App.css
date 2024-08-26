@@ -682,7 +682,7 @@ nav {
 
 
 
-@media (max-width: 414px) and (max-height: 736px) {
+@media (max-width: 430px) and (max-height: 932px) {
   .proyecto {
     font-size: 15vw;
   }
@@ -693,13 +693,16 @@ nav {
     width: 90%;
   }
   .botones{
-    width: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .boton{
-    width: 163px;
+    width: 150px;
     height: 20px;
     font-size: 3vw;
-    color:#9e169e83;
+    color:#e4ffcbd0;
   }
   .nom {
     font-size: 20vw;
@@ -777,7 +780,7 @@ nav {
   }
 
   .foote {
-    height: 300px;
+    height: 120px;
   }
 
   .contacto {
