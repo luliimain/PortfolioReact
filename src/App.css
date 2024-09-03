@@ -24,6 +24,14 @@
   display: flex;
 }
 
+.LogosPCell {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
 .memo {
   width: 16vw;
   margin-top: 10%;
@@ -42,7 +50,15 @@
 #skill {
   color: #000000;
 }
-
+.Skillssss{
+  display: none;
+}
+.InfoSkills
+{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
 .Descargarcv {
   display: flex;
   justify-content: center;
@@ -158,10 +174,12 @@
   font-weight: bold;
   color: #E4F0D0;
 }
-.contenido{
+
+.contenido {
   background-color: #e7d9e7cb;
 }
-.cabecera{
+
+.cabecera {
   background-color: #886a8acb;
   color: white;
 }
@@ -333,7 +351,7 @@ nav {
   display: flex;
   width: 100%;
   flex-direction: column;
-  height: 700px;
+  height: 300px;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -365,8 +383,8 @@ nav {
 }
 
 .LogosInfo {
-  width: 90px;
-  height: 90px;
+  width: 85px;
+  height: 85px;
   margin-left: 2%;
   border-radius: 15px;
   transition: 0.5s ease;
@@ -666,6 +684,10 @@ nav {
   z-index: 2;
 }
 
+#p {
+  display: none;
+}
+
 .ui-switch input:checked+.slider .circle {
   left: calc(100% - var(--circle-diameter));
 
@@ -686,24 +708,75 @@ nav {
   .proyecto {
     font-size: 15vw;
   }
-  .contenedorNombre{
-    height:200px ;
+
+
+
+  #p {
+    display: block;
   }
-  .logos{
-    width: 90%;
+
+  #p2 {
+    display: none;
   }
-  .botones{
+
+  .contenedorNombre {
+    height: 80%;
+  }
+
+  .LogosPCell {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
   }
-  .boton{
+
+  #pc1 {
+    align-items: baseline;
+    display: flex;
+  }
+
+  #pc2 {
+    align-items: end;
+    display: flex;
+  }
+
+  .InfoSkills {
+    display: flex;
+    width: 50%;
+  }
+
+  .Skillssss {
+    display: block;
+    color: #c9ffb5;
+    font-weight: bold;
+    font-family: system-ui, sans-serif;
+    width: 100%;
+    line-height: 30px;
+    margin-top: 5%;
+  }
+
+  .logos {
+    width: 100%;
+  }
+
+  .LogosInfo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .botones {
+    display: none;
+  }
+
+  .boton {
     width: 150px;
     height: 20px;
     font-size: 3vw;
-    color:#e4ffcbd0;
+    color: #e4ffcbd0;
   }
+
+  .arriba {
+    height: 550px;
+  }
+
   .nom {
     font-size: 20vw;
     width: 100%;
