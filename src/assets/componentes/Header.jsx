@@ -268,7 +268,7 @@ export default function Cabecera() {
 
                                 </svg>
                             </div>
-                            <div className='LogosPCell'>
+                            <div className='LogosPCell' id='s1'>
                                 <p className='Skillssss'>Java Script</p>
                                 <p className='Skillssss'>Java</p>
                                 <p className='Skillssss'>C Sharp</p>
@@ -278,12 +278,12 @@ export default function Cabecera() {
                             </div>
                         </div>
                         <div className='InfoSkills'>
-                        <div className='LogosPCell'>
+                        <div className='LogosPCell' id='s2'>
                                 <p className='Skillssss'>Python</p>
                                 <p className='Skillssss'>PostgreSQL</p>
                                 <p className='Skillssss'>HTML5</p>
                                 <p className='Skillssss'>CSS3</p>
-                                <p className='Skillssss'>GIT</p>
+                                <p className='Skillssss'>Git</p>
 
                             </div>
                             <div className='LogosPCell' id='pc2'>

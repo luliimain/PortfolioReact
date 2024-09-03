@@ -713,6 +713,7 @@ nav {
 
   #p {
     display: block;
+    margin-top: 5%;
   }
 
   #p2 {
@@ -720,7 +721,7 @@ nav {
   }
 
   .contenedorNombre {
-    height:400px;
+    height:650px;
   }
 
   .LogosPCell {
@@ -742,14 +743,20 @@ nav {
     display: flex;
     width: 50%;
   }
-
+#s1{
+  text-align: left;
+}
+#s2{
+  text-align: right;
+}
   .Skillssss {
+
     display: block;
     color: #c9ffb5;
     font-weight: bold;
     font-family: system-ui, sans-serif;
     width: 100%;
-    line-height: 30px;
+    line-height: 70px;
     margin-top: 5%;
   }
 
@@ -759,7 +766,7 @@ nav {
 
   .LogosInfo {
     width: 50px;
-    height: 50px;
+    height: 90px;
   }
 
   .botones {
